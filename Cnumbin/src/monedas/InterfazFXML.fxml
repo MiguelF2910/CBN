@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="monedas.InterfazFXMLController">
+    <stylesheets>
+        <URL value="@interfazfxml.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="18.0" layoutY="25.0" prefHeight="351.0" prefWidth="565.0">
+         <children>
+            <Label layoutX="100.0" layoutY="51.0" prefHeight="26.0" prefWidth="384.0" text="CONVERSOR DECIMAL A BINARIO ">
+               <font>
+                  <Font name="Yu Gothic Regular" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt1" layoutX="14.0" layoutY="152.0" onAction="#keypress1" prefHeight="25.0" prefWidth="207.0" />
+            <TextField fx:id="txt2" layoutX="263.0" layoutY="152.0" onAction="#keypress2" prefHeight="25.0" prefWidth="278.0" />
+            <Label fx:id="lbl1" layoutX="14.0" layoutY="188.0" prefHeight="17.0" prefWidth="207.0" text="DECIMAL" />
+            <Label fx:id="lbl2" layoutX="263.0" layoutY="188.0" prefHeight="17.0" prefWidth="278.0" text="BINARIO" />
+            <Label layoutX="231.0" layoutY="164.0" prefHeight="17.0" prefWidth="18.0" text="A" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
